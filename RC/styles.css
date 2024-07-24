@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+
+  h1{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    font-weight: 100%;
+  }
+
+  section{
+    color: black;
+    background-color: rgb(255, 230, 2);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section p{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    font-weight: 100%;
+    font-size: 18px;
+    
+  }
+
+  .principal{
+      border-radius: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 80px;
+  }
+
+  h1{
+      color: rgb(32, 32, 32);
+      font-family: poppins;
+      font-size: 35px;
+      margin-bottom: -35px;
+  }
+
+  h2{
+        font-family: poppins;
+      font-size: 160px;
+      margin-bottom: -20px;
+      color:rgb(255, 209, 2);
+  }
+
+  h3{
+    font-family: poppins;
+    font-size: 80px;
+    color: rgb(37, 37, 37);
+    margin-top: -40px;
+  }
+
+  .container{
+      margin: 40px;
+      padding: 40px;
+      display: flex;
+  }
+
+  .container__text{
+      margin-right: 80px;
+  }
+
+  .boton{
+      background-color: rgb(255, 209, 2);
+      border-radius: 15px;
+      width: 250px;
+      height: 60px;
+      -webkit-box-shadow: 9px 10px 24px -3px rgba(0,0,0,0.17);
+-moz-box-shadow: 9px 10px 24px -3px rgba(0,0,0,0.17);
+box-shadow: 9px 10px 24px -3px rgba(0,0,0,0.17);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+  }
+
+  .boton p{
+      margin: 15px;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 28px;
+  }
+
+  .container_desc{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .h1_desc{
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+  .container_desc_text{
+      margin-left: 125px;
+  }
+
+  .container_desc{
+      margin-top: 75px;
+  }
+
+  .container_desc img{
+      margin-right: 125px;
+  }
+
+  .container_desc_text h4{
+    font-family: Poppins;
+    font-weight: 100%;
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .container_desc_text p{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    font-weight: 100%;
+    font-size: 18px;
+  }
+
+  ul{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    font-weight: 100%;
+    font-size: 18px;
+  }
+
+  .componentes{
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .componentes img{
+      width: 220px;
+  }
+
+  .best {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.articulo {
+    flex-basis: calc(33.3333% - 20px); /* Tres elementos por fila */
+    margin-bottom: 20px; /* Espacio vertical entre filas */
+}
+
+
+  .best img{
+      width: 350px;
+      margin: 10px;
+  }
+
+  .articulo{
+      border: 2px solid rgb(255, 209, 2);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  h4{
+    font-family: Poppins;
+    font-weight: 100%;
+    font-size: 24px;
+  }
+
+  .articulo button{
+    background-color: rgb(255, 209, 2);
+    border-radius: 8px;
+    width: 100%;
+    height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      border: none;
+      font-size: 40px;
+  }
+
+  .articulo button:hover{
+    background-color: rgb(230, 187, 0);
+    cursor: pointer;
+  }
+
+  p{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    font-weight: 100%;
+    font-size: 18px;
+  }
+
+  .articulo p span{
+      color: red;
+      text-decoration: line-through;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 2 / 2 / 6 / 3; ;}
+    .div2 { grid-area: 3 / 3 / 7 / 4; }
+    .div3 { grid-area: 2 / 4 / 6 / 5; }
+    .div4 { grid-area: 3 / 5 / 7 / 6; }
+
+    .checked {
+        color: orange;
+      }
+
+    .stars{
+        width: 250px;
+        margin: 5px;
+    }
+
+    .parent p{
+        text-align: left;
+        margin: 5px;
+    }
+
+    .parent img{
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .div1 {
+        border: 2px solid rgb(255, 209, 2);
+      border-radius: 10px;
+    }
+    .div2 {
+        border: 2px solid rgb(255, 209, 2);
+      border-radius: 10px;
+    }
+    .div3 {
+        border: 2px solid rgb(255, 209, 2);
+      border-radius: 10px;
+    }
+    .div4 {
+        border: 2px solid rgb(255, 209, 2);
+      border-radius: 10px;
+    }
+
+    .h1_desc span{
+        font-family:ExtraBold 800 Italic;
+        color:rgb(255, 209, 2);
+    }
+
+    .garantias{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 105px;
+    }
+
+    .garantias div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .garantias .camion {
+        margin-bottom: 10px;
+    }
+
+    .garantias img{
+        width: 35%;
+        margin-bottom: 25px;
+    }
+
+    .garantias .camion{
+        width: 150px;
+    }
